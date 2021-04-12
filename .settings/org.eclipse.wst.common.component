@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="031_ETFSubjectsAdministratorSwitch">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-basic"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-zenit"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-collector"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-aggregator"/>
+        <wb-resource deploy-path="/" source-path="/WebContent-Alias"/>
+        <wb-resource deploy-path="/" source-path="/WebContent-Collector"/>
+        <wb-resource deploy-path="/" source-path="/WebContent-Program"/>
+        <wb-resource deploy-path="/" source-path="/WebContent-Zenit"/>
+        <wb-resource deploy-path="/" source-path="/WebContent-DataSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src-datasource"/>
+                
+        <property name="context-root" value="031_ETFSubjectsAdministratorSwitch"/>
+                
+        <property name="java-output-path" value="/031_ETFSubjectsAdministratorSwitch/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>

@@ -1,0 +1,146 @@
+@Charset "UTF-8";
+
+/*********************************************/
+/******************* RCBOX1 ******************/
+/*********************************************/
+
+div.rcbox1{
+	height:60px;
+	border: 1px solid #3DB5E8;
+}
+
+div.rcbox1 p {
+	margin:0px;
+	padding:0px;
+	text-align: center;
+	line-height: 60px;
+	text-transform: uppercase;
+	font-size:14px;
+}
+
+div.rcbox1 a:hover {
+	text-decoration:none;
+}
+
+
+a.div.p:hover {
+	text-decoration:none;
+}
+
+div.rcbox1:hover{
+	text-decoration:none;
+    border-radius: 2px;
+	margin:0px;
+	padding:0px;
+	/*background-color: #6495ED;*/
+	/*background-color: #FF8300;*/
+	background-color: #FFFF99;
+	color:#005C8B;
+}
+
+/*********************************************/
+/************** TABELA PLAN ******************/
+/*********************************************/
+table.nastavni_plan {
+	width:100%;
+}
+
+table.nastavni_plan tr td{
+	border: 1px solid #C7D7E5;
+	padding:2px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align: center;
+}
+
+table.nastavni_plan tr td p{ 
+text-align:left;
+padding:0px;
+text-indent:0px;
+	
+}
+
+table.nastavni_plan tr th{
+	border: 1px solid #C7D7E5;
+	padding:2px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align: center;
+	background-color:#005C8B;
+	color:#FFF;
+}
+
+table.nastavni_plan td.naziv_predmeta {
+text-align: left;
+}
+
+table.nastavni_plan td.b {
+	font-weight:bold;
+}
+
+tr:hover {background-color: #f5f5f5}
+
+/*********************************************/
+/************** TABELA PREDMET ***************/
+/*********************************************/
+
+table.predmet {
+	width:100%;
+}
+
+table.predmet tr td{
+	border: 1px solid #C7D7E5;
+	padding:2px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align: left;
+}
+
+table.predmet tr td p{ 
+text-align:left;
+padding:0px;
+text-indent:0px;
+	
+}
+
+table.predmet tr th{
+	border: 1px solid #C7D7E5;
+	padding:2px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align: center;
+	background-color:#005C8B;
+	color:#FFF;
+}
+
+table.predmet td.plavi_naslov {
+  font-weight:bold;
+  text-align: left;
+  background-color:#9DBFED;
+}
+
+table.predmet td.bijeli_naslov {
+  font-weight:bold;
+  text-align: left;
+}
+
+table.predmet tr.centriran_bijeli_naslov td {
+  font-weight:bold;
+  text-align: center;
+}
+
+table.predmet tr.centriran td {
+  text-align: center;
+}
+
+table.predmet td.bodovi {
+  text-align: right;
+}
+
+  /*****************************/
+ /***  GENERAL  PROPERTIES  ***/
+/*****************************/
+
+div[id^="content"]{
+	white-space:pre;
+}
